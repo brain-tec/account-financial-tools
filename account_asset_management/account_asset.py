@@ -424,6 +424,7 @@ class account_asset_asset(orm.Model):
     def _compute_depreciation_table(self, cr, uid, asset, context=None):
         if not context:
             context = {}
+        context = context.copy()
 
         table = []
         if not asset.method_number:
@@ -608,6 +609,7 @@ class account_asset_asset(orm.Model):
     def compute_depreciation_board(self, cr, uid, ids, context=None):
         if not context:
             context = {}
+        context = context.copy()
         depreciation_lin_obj = self.pool.get(
             'account.asset.depreciation.line')
         digits = self.pool.get('decimal.precision').precision_get(
@@ -781,9 +783,9 @@ class account_asset_asset(orm.Model):
             if asset.type == 'normal' and currency_obj.is_zero(
                     cr, uid, asset.company_id.currency_id,
                     asset.value_residual):
-                asset.write({'state': 'close'}, context=context)
+                asset.write({'state': 'close'})
             else:
-                asset.write({'state': 'open'}, context=context)
+                asset.write({'state': 'open'})
         return True
 
     def remove(self, cr, uid, ids, context=None):
