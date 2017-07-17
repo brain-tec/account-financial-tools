@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: account-financial-tools (7.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-25 09:14+0000\n"
+"POT-Creation-Date: 2017-06-23 22:27+0000\n"
 "PO-Revision-Date: 2015-06-03 16:24+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: Spanish (http://www.transifex.com/oca/OCA-account-financial-tools-7-0/language/es/)\n"
@@ -40,7 +40,7 @@ msgstr "Borrador"
 #. module: account_check_deposit
 #: field:account.check.deposit,line_ids:0
 msgid "Lines"
-msgstr ""
+msgstr "Líneas"
 
 #. module: account_check_deposit
 #: code:addons/account_check_deposit/account_deposit.py:194
@@ -100,7 +100,7 @@ msgstr ""
 #. module: account_check_deposit
 #: view:account.check.deposit:0
 msgid "Group By"
-msgstr ""
+msgstr "Agrupar por"
 
 #. module: account_check_deposit
 #: code:addons/account_check_deposit/account_deposit.py:253
@@ -111,7 +111,7 @@ msgstr ""
 #. module: account_check_deposit
 #: report:addons/account_check_deposit/report/check_deposit.mako:63
 msgid "Payment Date"
-msgstr ""
+msgstr "Fecha de pago"
 
 #. module: account_check_deposit
 #: model:ir.model,name:account_check_deposit.model_account_move_line
@@ -126,7 +126,7 @@ msgstr ""
 #. module: account_check_deposit
 #: view:account.check.deposit:0
 msgid "Back to Draft"
-msgstr ""
+msgstr "Devolver a borrador"
 
 #. module: account_check_deposit
 #: code:addons/account_check_deposit/account_deposit.py:130
@@ -172,7 +172,7 @@ msgstr ""
 #. module: account_check_deposit
 #: view:account.check.deposit:0 field:account.check.deposit,partner_bank_id:0
 msgid "Bank Account"
-msgstr ""
+msgstr "Cuenta bancaria"
 
 #. module: account_check_deposit
 #: model:ir.model,name:account_check_deposit.model_res_company
@@ -217,7 +217,7 @@ msgstr ""
 #. module: account_check_deposit
 #: field:account.check.deposit,is_reconcile:0
 msgid "Reconcile"
-msgstr ""
+msgstr "Conciliación"
 
 #. module: account_check_deposit
 #: report:addons/account_check_deposit/report/check_deposit.mako:64
@@ -251,12 +251,12 @@ msgstr ""
 #. module: account_check_deposit
 #: view:account.check.deposit:0 field:account.check.deposit,currency_id:0
 msgid "Currency"
-msgstr ""
+msgstr "Moneda"
 
 #. module: account_check_deposit
 #: view:account.check.deposit:0 selection:account.check.deposit,state:0
 msgid "Done"
-msgstr ""
+msgstr "Hecho"
 
 #. module: account_check_deposit
 #: field:account.check.deposit,move_id:0

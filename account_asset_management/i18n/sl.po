@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: account-financial-tools (7.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-25 09:14+0000\n"
-"PO-Revision-Date: 2015-07-05 13:19+0000\n"
+"POT-Creation-Date: 2017-03-24 23:13+0000\n"
+"PO-Revision-Date: 2017-04-25 17:36+0000\n"
 "Last-Translator: Matjaž Mozetič <m.mozetic@matmoz.si>\n"
 "Language-Team: Slovenian (http://www.transifex.com/oca/OCA-account-financial-tools-7-0/language/sl/)\n"
 "MIME-Version: 1.0\n"
@@ -99,7 +99,7 @@ msgstr ""
 #. module: account_asset_management
 #: selection:account.asset.asset,type:0
 msgid "View"
-msgstr ""
+msgstr "Prikaz"
 
 #. module: account_asset_management
 #: help:account.asset.asset,salvage_value:0
@@ -308,7 +308,7 @@ msgstr ""
 #. module: account_asset_management
 #: field:account.asset.recompute.trigger,state:0
 msgid "State"
-msgstr ""
+msgstr "Stanje"
 
 #. module: account_asset_management
 #: view:account.asset.asset:0 view:asset.asset.report:0
@@ -447,7 +447,7 @@ msgstr ""
 #: view:account.asset.asset:0 field:account.asset.asset,type:0
 #: field:account.asset.depreciation.line,type:0
 msgid "Type"
-msgstr ""
+msgstr "Tip"
 
 #. module: account_asset_management
 #: code:addons/account_asset_management/account_asset.py:1235
@@ -620,7 +620,7 @@ msgstr "Postavka računa"
 #: code:addons/account_asset_management/account_asset.py:1337
 #, python-format
 msgid "Journal Entries"
-msgstr ""
+msgstr "Dnevniški vnosi"
 
 #. module: account_asset_management
 #: selection:account.asset.asset,method_period:0
@@ -628,7 +628,7 @@ msgstr ""
 #: selection:account.asset.history,method_period:0
 #: selection:asset.modify,method_period:0
 msgid "Month"
-msgstr ""
+msgstr "Mesec"
 
 #. module: account_asset_management
 #: view:account.asset.asset:0
@@ -638,7 +638,7 @@ msgstr "Amortizacijska tabela"
 #. module: account_asset_management
 #: field:account.asset.asset,parent_right:0
 msgid "Parent Right"
-msgstr ""
+msgstr "Desno nadrejeni"
 
 #. module: account_asset_management
 #: selection:account.asset.depreciation.line,type:0
@@ -677,7 +677,7 @@ msgstr "ali"
 #. module: account_asset_management
 #: view:account.asset.asset:0
 msgid "Category"
-msgstr ""
+msgstr "Kategorija"
 
 #. module: account_asset_management
 #: field:account.asset.asset,method_number:0
@@ -749,7 +749,7 @@ msgstr "Knjižene amortizacijske postavke"
 #. module: account_asset_management
 #: selection:account.asset.asset,type:0
 msgid "Normal"
-msgstr ""
+msgstr "Običajno"
 
 #. module: account_asset_management
 #: code:addons/account_asset_management/account_asset.py:420
@@ -906,7 +906,7 @@ msgstr ""
 #. module: account_asset_management
 #: selection:account.asset.recompute.trigger,state:0
 msgid "Done"
-msgstr ""
+msgstr "Opravljeno"
 
 #. module: account_asset_management
 #: field:account.account,asset_category_id:0
@@ -931,7 +931,7 @@ msgstr "Zapri"
 #. module: account_asset_management
 #: selection:account.asset.recompute.trigger,state:0
 msgid "Open"
-msgstr ""
+msgstr "Odprto"
 
 #. module: account_asset_management
 #: field:account.asset.asset,move_line_check:0
@@ -982,7 +982,7 @@ msgstr ""
 #. module: account_asset_management
 #: field:account.asset.asset,parent_left:0
 msgid "Parent Left"
-msgstr ""
+msgstr "Levo nadrejeni"
 
 #. module: account_asset_management
 #: view:account.asset.asset:0
@@ -1121,7 +1121,7 @@ msgstr ""
 #. module: account_asset_management
 #: model:ir.model,name:account_asset_management.model_account_fiscalyear
 msgid "Fiscal Year"
-msgstr ""
+msgstr "Fiskalno leto"
 
 #. module: account_asset_management
 #: model:ir.model,name:account_asset_management.model_account_asset_depreciation_line
@@ -1177,7 +1177,7 @@ msgstr ""
 #. module: account_asset_management
 #: model:ir.model,name:account_asset_management.model_account_move
 msgid "Account Entry"
-msgstr ""
+msgstr "Knjigovodski vnos"
 
 #. module: account_asset_management
 #: view:account.move:0

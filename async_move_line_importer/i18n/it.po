@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: account-financial-tools (7.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-25 09:14+0000\n"
+"POT-Creation-Date: 2017-03-24 23:13+0000\n"
 "PO-Revision-Date: 2015-06-03 16:24+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: Italian (http://www.transifex.com/oca/OCA-account-financial-tools-7-0/language/it/)\n"
@@ -35,12 +35,12 @@ msgstr ""
 #. module: async_move_line_importer
 #: field:move.line.importer,message_follower_ids:0
 msgid "Followers"
-msgstr ""
+msgstr "Followers"
 
 #. module: async_move_line_importer
 #: selection:move.line.importer,state:0
 msgid "New"
-msgstr ""
+msgstr "Nuovo"
 
 #. module: async_move_line_importer
 #: field:move.line.importer,delimiter:0
@@ -96,7 +96,7 @@ msgstr "In esecuzione"
 #. module: async_move_line_importer
 #: field:move.line.importer,message_is_follower:0
 msgid "Is a Follower"
-msgstr ""
+msgstr "È un follower"
 
 #. module: async_move_line_importer
 #: code:addons/async_move_line_importer/model/move_line_importer.py:214
@@ -132,7 +132,7 @@ msgstr "Nome"
 #. module: async_move_line_importer
 #: selection:move.line.importer,state:0
 msgid "Success"
-msgstr ""
+msgstr "Riuscito"
 
 #. module: async_move_line_importer
 #: code:addons/async_move_line_importer/model/move_line_importer.py:370
@@ -155,12 +155,12 @@ msgstr ""
 #. module: async_move_line_importer
 #: field:move.line.importer,message_ids:0
 msgid "Messages"
-msgstr ""
+msgstr "Messages"
 
 #. module: async_move_line_importer
 #: field:move.line.importer,message_summary:0
 msgid "Summary"
-msgstr ""
+msgstr "Periodo Iva"
 
 #. module: async_move_line_importer
 #: view:move.line.importer:0 field:move.line.importer,report:0
@@ -180,7 +180,7 @@ msgstr "Errore"
 #. module: async_move_line_importer
 #: help:move.line.importer,message_unread:0
 msgid "If checked new messages require your attention."
-msgstr ""
+msgstr "If checked new messages require your attention."
 
 #. module: async_move_line_importer
 #: code:addons/async_move_line_importer/model/move_line_importer.py:330
@@ -191,7 +191,7 @@ msgstr ""
 #. module: async_move_line_importer
 #: model:ir.model,name:async_move_line_importer.model_account_move
 msgid "Account Entry"
-msgstr ""
+msgstr "Registrazione Contabile"
 
 #. module: async_move_line_importer
 #: view:move.line.importer:0
@@ -201,7 +201,7 @@ msgstr ""
 #. module: async_move_line_importer
 #: field:move.line.importer,message_unread:0
 msgid "Unread Messages"
-msgstr ""
+msgstr "Unread Messages"
 
 #. module: async_move_line_importer
 #: help:move.line.importer,message_summary:0
@@ -219,7 +219,7 @@ msgstr ""
 #. module: async_move_line_importer
 #: model:ir.model,name:async_move_line_importer.model_move_line_importer
 msgid "Email Thread"
-msgstr ""
+msgstr "Discussione Email"
 
 #. module: async_move_line_importer
 #: field:move.line.importer,file:0

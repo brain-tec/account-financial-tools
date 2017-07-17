@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: account-financial-tools (7.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-25 09:14+0000\n"
-"PO-Revision-Date: 2015-06-03 16:41+0000\n"
+"POT-Creation-Date: 2017-03-24 23:13+0000\n"
+"PO-Revision-Date: 2017-03-31 05:22+0000\n"
 "Last-Translator: OCA Transbot <transbot@odoo-community.org>\n"
 "Language-Team: Spanish (Costa Rica) (http://www.transifex.com/oca/OCA-account-financial-tools-7-0/language/es_CR/)\n"
 "MIME-Version: 1.0\n"
@@ -446,7 +446,7 @@ msgstr ""
 #: view:account.asset.asset:0 field:account.asset.asset,type:0
 #: field:account.asset.depreciation.line,type:0
 msgid "Type"
-msgstr ""
+msgstr "Tipo"
 
 #. module: account_asset_management
 #: code:addons/account_asset_management/account_asset.py:1235
@@ -676,7 +676,7 @@ msgstr ""
 #. module: account_asset_management
 #: view:account.asset.asset:0
 msgid "Category"
-msgstr ""
+msgstr "Categoría"
 
 #. module: account_asset_management
 #: field:account.asset.asset,method_number:0
@@ -730,7 +730,7 @@ msgstr ""
 #. module: account_asset_management
 #: field:account.asset.asset,state:0 field:asset.asset.report,state:0
 msgid "Status"
-msgstr ""
+msgstr "Estado"
 
 #. module: account_asset_management
 #: field:account.asset.asset,asset_value:0

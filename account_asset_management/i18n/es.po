@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: account-financial-tools (7.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-25 09:14+0000\n"
-"PO-Revision-Date: 2015-06-03 16:41+0000\n"
+"POT-Creation-Date: 2017-05-12 22:18+0000\n"
+"PO-Revision-Date: 2017-05-13 18:20+0000\n"
 "Last-Translator: OCA Transbot <transbot@odoo-community.org>\n"
 "Language-Team: Spanish (http://www.transifex.com/oca/OCA-account-financial-tools-7-0/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -33,7 +33,7 @@ msgstr "Fecha final"
 #. module: account_asset_management
 #: model:ir.model,name:account_asset_management.model_account_config_settings
 msgid "account.config.settings"
-msgstr ""
+msgstr "account.config.settings"
 
 #. module: account_asset_management
 #: field:account.asset.asset,value_residual:0
@@ -98,7 +98,7 @@ msgstr ""
 #. module: account_asset_management
 #: selection:account.asset.asset,type:0
 msgid "View"
-msgstr ""
+msgstr "Vista"
 
 #. module: account_asset_management
 #: help:account.asset.asset,salvage_value:0
@@ -220,7 +220,7 @@ msgstr ""
 #. module: account_asset_management
 #: model:ir.model,name:account_asset_management.model_account_account
 msgid "Account"
-msgstr ""
+msgstr "Cuenta"
 
 #. module: account_asset_management
 #: view:account.asset.asset:0
@@ -267,7 +267,7 @@ msgstr "Asiento de amortización"
 #. module: account_asset_management
 #: view:account.asset.asset:0
 msgid "Journal Item"
-msgstr ""
+msgstr "Apunte contable"
 
 #. module: account_asset_management
 #: view:account.asset.asset:0
@@ -307,7 +307,7 @@ msgstr ""
 #. module: account_asset_management
 #: field:account.asset.recompute.trigger,state:0
 msgid "State"
-msgstr ""
+msgstr "Estado"
 
 #. module: account_asset_management
 #: view:account.asset.asset:0 view:asset.asset.report:0
@@ -619,7 +619,7 @@ msgstr "Línea de factura"
 #: code:addons/account_asset_management/account_asset.py:1337
 #, python-format
 msgid "Journal Entries"
-msgstr ""
+msgstr "Asientos contables"
 
 #. module: account_asset_management
 #: selection:account.asset.asset,method_period:0
@@ -627,7 +627,7 @@ msgstr ""
 #: selection:account.asset.history,method_period:0
 #: selection:asset.modify,method_period:0
 msgid "Month"
-msgstr ""
+msgstr "Mes"
 
 #. module: account_asset_management
 #: view:account.asset.asset:0
@@ -676,7 +676,7 @@ msgstr "o"
 #. module: account_asset_management
 #: view:account.asset.asset:0
 msgid "Category"
-msgstr ""
+msgstr "Categoría"
 
 #. module: account_asset_management
 #: field:account.asset.asset,method_number:0
@@ -748,7 +748,7 @@ msgstr "Líneas de amortización asentadas"
 #. module: account_asset_management
 #: selection:account.asset.asset,type:0
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #. module: account_asset_management
 #: code:addons/account_asset_management/account_asset.py:420
@@ -905,7 +905,7 @@ msgstr ""
 #. module: account_asset_management
 #: selection:account.asset.recompute.trigger,state:0
 msgid "Done"
-msgstr ""
+msgstr "Hecho"
 
 #. module: account_asset_management
 #: field:account.account,asset_category_id:0
@@ -930,7 +930,7 @@ msgstr "Cerrar"
 #. module: account_asset_management
 #: selection:account.asset.recompute.trigger,state:0
 msgid "Open"
-msgstr ""
+msgstr "Abierto"
 
 #. module: account_asset_management
 #: field:account.asset.asset,move_line_check:0
@@ -1120,7 +1120,7 @@ msgstr ""
 #. module: account_asset_management
 #: model:ir.model,name:account_asset_management.model_account_fiscalyear
 msgid "Fiscal Year"
-msgstr ""
+msgstr "Ejercicio fiscal"
 
 #. module: account_asset_management
 #: model:ir.model,name:account_asset_management.model_account_asset_depreciation_line
