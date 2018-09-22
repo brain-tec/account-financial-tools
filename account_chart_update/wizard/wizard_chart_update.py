@@ -226,7 +226,7 @@ class WizardUpdateChartsAccounts(models.TransientModel):
             perform_rest = True
             if self.update_account:
                 self._update_accounts()
-                if (EXCEPTION_TEXT in log_output.getvalue() and
+                if (EXCEPTION_TEXT in log_output.getvalue().decode('utf-8') and
                         not self.continue_on_errors):  # Abort early
                     perform_rest = False
             # Clear this cache for avoiding incorrect account hits (as it was
@@ -422,8 +422,10 @@ class WizardUpdateChartsAccounts(models.TransientModel):
                         result[key] = expected
                 elif template[key] != real[key]:
                     result[key] = template[key]
-                if isinstance(result.get(key, False), models.Model):
-                    # Avoid to cache recordset references
+                # Avoid to cache recordset references
+                if isinstance(real._fields[key], fields.Many2many):
+                    result[key] = [(6, 0, result[key].ids)]
+                elif isinstance(real._fields[key], fields.Many2one):
                     result[key] = result[key].id
             except KeyError:
                 pass
