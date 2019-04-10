@@ -12,8 +12,11 @@ setuptools.setup(
         'odoo12-addon-account_chart_update',
         'odoo12-addon-account_check_deposit',
         'odoo12-addon-account_fiscal_year',
+        'odoo12-addon-account_group_menu',
+        'odoo12-addon-account_invoice_constraint_chronology',
         'odoo12-addon-account_move_fiscal_year',
         'odoo12-addon-account_renumber',
+        'odoo12-addon-account_tag_menu',
         'odoo12-addon-account_type_menu',
     ],
     classifiers=[
