@@ -4,7 +4,7 @@
 
 {
     "name": "Account - Missing Menus",
-    "version": "14.0.1.0.0",
+    "version": "14.0.1.1.0",
     "category": "Accounting",
     "license": "AGPL-3",
     "summary": "Adds missing menu entries for Account module",
@@ -13,6 +13,7 @@
     "depends": ["account"],
     "data": [
         "views/menu.xml",
+        "views/res_config_settings_views.xml",
         "views/view_account_account_template.xml",
         "views/view_account_bank_statement.xml",
         "views/view_account_chart_template.xml",
