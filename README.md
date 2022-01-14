@@ -32,12 +32,13 @@ Available addons
 addon | version | maintainers | summary
 --- | --- | --- | ---
 [account_asset_batch_compute](account_asset_batch_compute/) | 13.0.1.0.0 |  | Add the possibility to compute assets in batch
-[account_asset_management](account_asset_management/) | 13.0.3.5.0 |  | Assets Management
+[account_asset_management](account_asset_management/) | 13.0.3.6.0 |  | Assets Management
 [account_asset_management_menu](account_asset_management_menu/) | 13.0.1.0.0 |  | Assets Management Menu
 [account_balance_line](account_balance_line/) | 13.0.1.0.0 |  | Display balance totals in move line view
 [account_cash_basis_group_base_line](account_cash_basis_group_base_line/) | 13.0.0.0.1 |  | Compacting the creation of Journal Lines for CABA base lines.
 [account_chart_update](account_chart_update/) | 13.0.2.0.0 |  | Wizard to update a company's account chart from a template
 [account_check_deposit](account_check_deposit/) | 13.0.1.1.0 |  | Manage deposit of checks to the bank
+[account_document_reversal](account_document_reversal/) | 13.0.1.0.0 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Create reversed journal entries when cancel document
 [account_fiscal_month](account_fiscal_month/) | 13.0.1.0.0 |  | Provide a fiscal month date range type
 [account_fiscal_position_allowed_journal](account_fiscal_position_allowed_journal/) | 13.0.1.0.0 | [![ThomasBinsfeld](https://github.com/ThomasBinsfeld.png?size=30px)](https://github.com/ThomasBinsfeld) | Allow defining allowed journals on fiscal positions. Related invoices can only use one of the allowed journals on the fiscal position.
 [account_fiscal_year](account_fiscal_year/) | 13.0.1.0.0 | [![eLBati](https://github.com/eLBati.png?size=30px)](https://github.com/eLBati) | Create a menu for Account Fiscal Year
@@ -62,7 +63,7 @@ addon | version | maintainers | summary
 [account_tax_repartition_line_tax_group_account](account_tax_repartition_line_tax_group_account/) | 13.0.1.0.0 |  | Set a default account from tax group to tax repartition lines
 [base_vat_optional_vies](base_vat_optional_vies/) | 13.0.1.0.1 |  | Optional validation of VAT via VIES
 [product_category_tax](product_category_tax/) | 13.0.1.1.0 |  | Configure taxes in the product category
-[stock_account_prepare_anglo_saxon_out_lines_hook](stock_account_prepare_anglo_saxon_out_lines_hook/) | 13.0.1.0.0 |  | Modify when and how anglo saxon journal items are created
+[stock_account_prepare_anglo_saxon_out_lines_hook](stock_account_prepare_anglo_saxon_out_lines_hook/) | 13.0.1.0.1 |  | Modify when and how anglo saxon journal items are created
 
 [//]: # (end addons)
 
