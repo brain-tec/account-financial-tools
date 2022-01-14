@@ -233,7 +233,6 @@ msgid "Reversal date"
 msgstr ""
 
 #. module: account_document_reversal
-<<<<<<< HEAD
 #: model:ir.model.fields,field_description:account_document_reversal.field_account_move__reverse_entry_id
 msgid "Reversed by"
 msgstr ""
@@ -264,7 +263,6 @@ msgstr ""
 #. module: account_document_reversal
 #: model:ir.model.fields,help:account_document_reversal.field_account_bank_statement_import_journal_creation__is_cancel_reversal
 #: model:ir.model.fields,help:account_document_reversal.field_account_journal__is_cancel_reversal
-=======
 #: code:addons/account_document_reversal/models/account_move.py:22
 #, python-format
 msgid "This action is not allowed for cancel with reversal.\n"
@@ -274,7 +272,6 @@ msgstr ""
 #. module: account_document_reversal
 #: model:ir.model.fields,help:account_document_reversal.field_account_journal__is_cancel_reversal
 #: model:ir.model.fields,help:account_document_reversal.field_account_move__is_cancel_reversal
->>>>>>> 13.0.project_MI_465
 msgid "True, when journal allow cancel entries with method is reversal"
 msgstr ""
 
