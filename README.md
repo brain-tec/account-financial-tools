@@ -1,5 +1,7 @@
-[![Runbot Status](https://runbot.odoo-community.org/runbot/badge/flat/92/15.0.svg)](https://runbot.odoo-community.org/runbot/repo/github-com-oca-account-financial-tools-92)
-[![Build Status](https://travis-ci.com/OCA/account-financial-tools.svg?branch=15.0)](https://travis-ci.com/OCA/account-financial-tools)
+
+[![Runboat](https://img.shields.io/badge/runboat-Try%20me-875A7B.png)](https://runboat.odoo-community.org/builds?repo=OCA/account-financial-tools&target_branch=15.0)
+[![Pre-commit Status](https://github.com/OCA/account-financial-tools/actions/workflows/pre-commit.yml/badge.svg?branch=15.0)](https://github.com/OCA/account-financial-tools/actions/workflows/pre-commit.yml?query=branch%3A15.0)
+[![Build Status](https://github.com/OCA/account-financial-tools/actions/workflows/test.yml/badge.svg?branch=15.0)](https://github.com/OCA/account-financial-tools/actions/workflows/test.yml?query=branch%3A15.0)
 [![codecov](https://codecov.io/gh/OCA/account-financial-tools/branch/15.0/graph/badge.svg)](https://codecov.io/gh/OCA/account-financial-tools)
 [![Translation Status](https://translation.odoo-community.org/widgets/account-financial-tools-15-0/-/svg-badge.svg)](https://translation.odoo-community.org/engage/account-financial-tools-15-0/?utm_source=widget)
 
@@ -19,9 +21,14 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
+[account_balance_line](account_balance_line/) | 15.0.1.0.0 |  | Display balance totals in move line view
+[account_invoice_constraint_chronology](account_invoice_constraint_chronology/) | 15.0.1.0.1 |  | Account Invoice Constraint Chronology
+[account_lock_date_update](account_lock_date_update/) | 15.0.1.0.1 |  | Allow an Account adviser to update locking date without having access to all technical settings
+[account_move_line_menu](account_move_line_menu/) | 15.0.1.0.0 |  | Adds a Journal Items menu
 [account_move_line_purchase_info](account_move_line_purchase_info/) | 15.0.1.0.1 |  | Introduces the purchase order line to the journal items
 [account_move_line_sale_info](account_move_line_sale_info/) | 15.0.1.0.1 |  | Introduces the purchase order line to the journal items
-[base_vat_optional_vies](base_vat_optional_vies/) | 15.0.1.0.0 |  | Optional validation of VAT via VIES
+[account_usability](account_usability/) | 15.0.1.0.0 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Adds missing menu entries for Account module and adds the option to enable Saxon Accounting
+[base_vat_optional_vies](base_vat_optional_vies/) | 15.0.1.0.1 |  | Optional validation of VAT via VIES
 [product_category_tax](product_category_tax/) | 15.0.1.0.0 |  | Configure taxes in the product category
 
 [//]: # (end addons)
@@ -32,12 +39,11 @@ addon | version | maintainers | summary
 
 This repository is licensed under [AGPL-3.0](LICENSE).
 
-However, each module can have a totally different license, as long as they adhere to OCA
+However, each module can have a totally different license, as long as they adhere to Odoo Community Association (OCA)
 policy. Consult each module's `__manifest__.py` file, which contains a `license` key
 that explains its license.
 
 ----
-
 OCA, or the [Odoo Community Association](http://odoo-community.org/), is a nonprofit
 organization whose mission is to support the collaborative development of Odoo features
 and promote its widespread use.
