@@ -8,8 +8,10 @@ setuptools.setup(
     description="Meta package for oca-account-financial-tools Odoo addons",
     version=version,
     install_requires=[
+        'odoo14-addon-account_asset_batch_compute',
         'odoo14-addon-account_asset_management',
         'odoo14-addon-account_asset_management_menu',
+        'odoo14-addon-account_asset_number',
         'odoo14-addon-account_asset_transfer',
         'odoo14-addon-account_balance_line',
         'odoo14-addon-account_cash_deposit',
