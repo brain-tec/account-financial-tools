@@ -47,7 +47,7 @@ addon | version | maintainers | summary
 [account_move_line_purchase_info](account_move_line_purchase_info/) | 14.0.1.0.2 |  | Introduces the purchase order line to the journal items
 [account_move_line_sale_info](account_move_line_sale_info/) | 14.0.1.0.1 |  | Introduces the purchase order line to the journal items
 [account_move_line_tax_editable](account_move_line_tax_editable/) | 14.0.2.0.0 |  | Allows to edit taxes on non-posted account move lines
-[account_move_name_sequence](account_move_name_sequence/) | 14.0.1.2.1 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) [![moylop260](https://github.com/moylop260.png?size=30px)](https://github.com/moylop260) | Generate journal entry number from sequence
+[account_move_name_sequence](account_move_name_sequence/) | 14.0.1.2.2 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) [![moylop260](https://github.com/moylop260.png?size=30px)](https://github.com/moylop260) [![frahikLV](https://github.com/frahikLV.png?size=30px)](https://github.com/frahikLV) | Generate journal entry number from sequence
 [account_move_print](account_move_print/) | 14.0.1.0.0 | [![JordiBForgeFlow](https://github.com/JordiBForgeFlow.png?size=30px)](https://github.com/JordiBForgeFlow) | Adds the option to print Journal Entries
 [account_move_template](account_move_template/) | 14.0.1.1.0 |  | Templates for recurring Journal Entries
 [account_netting](account_netting/) | 14.0.1.0.0 |  | Compensate AR/AP accounts from the same partner
@@ -55,7 +55,7 @@ addon | version | maintainers | summary
 [account_sequence_option](account_sequence_option/) | 14.0.1.0.2 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Manage sequence options for account.move, i.e., invoice, bill, entry
 [account_template_active](account_template_active/) | 14.0.1.0.0 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Allow to disable / enable account template items (tax, fiscal position, account)
 [base_vat_optional_vies](base_vat_optional_vies/) | 14.0.1.0.2 |  | Optional validation of VAT via VIES
-[product_category_tax](product_category_tax/) | 14.0.1.0.0 |  | Configure taxes in the product category
+[product_category_tax](product_category_tax/) | 14.0.1.1.0 |  | Configure taxes in the product category
 [stock_account_prepare_anglo_saxon_out_lines_hook](stock_account_prepare_anglo_saxon_out_lines_hook/) | 14.0.1.0.4 |  | Modify when and how anglo saxon journal items are created
 
 [//]: # (end addons)
