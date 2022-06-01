@@ -34,6 +34,7 @@ addon | version | maintainers | summary
 [account_fiscal_position_vat_check](account_fiscal_position_vat_check/) | 14.0.1.0.0 |  | Check VAT on invoice validation
 [account_fiscal_year](account_fiscal_year/) | 14.0.1.2.0 | [![eLBati](https://github.com/eLBati.png?size=30px)](https://github.com/eLBati) | Create Account Fiscal Year
 [account_invoice_constraint_chronology](account_invoice_constraint_chronology/) | 14.0.1.0.0 |  | Account Invoice Constraint Chronology
+[account_journal_general_sequence](account_journal_general_sequence/) | 14.0.1.0.0 |  | Add configurable sequence to account moves, per journal
 [account_journal_lock_date](account_journal_lock_date/) | 14.0.1.0.1 |  | Lock each journal independently
 [account_loan](account_loan/) | 14.0.1.0.2 |  | Account Loan management
 [account_lock_date_update](account_lock_date_update/) | 14.0.2.0.0 |  | Allow an Account adviser to update locking date without having access to all technical settings
@@ -49,7 +50,7 @@ addon | version | maintainers | summary
 [account_move_line_tax_editable](account_move_line_tax_editable/) | 14.0.2.0.0 |  | Allows to edit taxes on non-posted account move lines
 [account_move_name_sequence](account_move_name_sequence/) | 14.0.1.2.2 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) [![moylop260](https://github.com/moylop260.png?size=30px)](https://github.com/moylop260) [![frahikLV](https://github.com/frahikLV.png?size=30px)](https://github.com/frahikLV) | Generate journal entry number from sequence
 [account_move_print](account_move_print/) | 14.0.1.0.0 | [![JordiBForgeFlow](https://github.com/JordiBForgeFlow.png?size=30px)](https://github.com/JordiBForgeFlow) | Adds the option to print Journal Entries
-[account_move_template](account_move_template/) | 14.0.1.1.0 |  | Templates for recurring Journal Entries
+[account_move_template](account_move_template/) | 14.0.1.1.1 |  | Templates for recurring Journal Entries
 [account_netting](account_netting/) | 14.0.1.0.0 |  | Compensate AR/AP accounts from the same partner
 [account_no_default](account_no_default/) | 14.0.1.0.0 | [![dreispt](https://github.com/dreispt.png?size=30px)](https://github.com/dreispt) | Remove default expense account for vendor bills journal
 [account_sequence_option](account_sequence_option/) | 14.0.1.0.2 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Manage sequence options for account.move, i.e., invoice, bill, entry
