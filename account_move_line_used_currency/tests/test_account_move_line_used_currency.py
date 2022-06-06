@@ -1,7 +1,9 @@
 # Copyright 2021 ForgeFlow, S.L.
 # License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 
+from odoo import fields
 from odoo.tests import common
+from odoo.tools import DEFAULT_SERVER_DATE_FORMAT
 
 
 class TestAccountMoveLineCurrency(common.SavepointCase):
@@ -33,9 +35,13 @@ class TestAccountMoveLineCurrency(common.SavepointCase):
         # Currencies
         cls.currency_euro = cls.env["res.currency"].search([("name", "=", "EUR")])
         cls.currency_usd = cls.env["res.currency"].search([("name", "=", "USD")])
-        cls.currency_rate = cls.env["res.currency.rate"].create(
-            {"rate": 1.30, "currency_id": cls.currency_usd.id}
+        cls.currency_rate = cls.env["res.currency.rate"].search(
+            [
+                ("currency_id", "=", cls.currency_usd.id),
+                ("name", "=", fields.Date.today().strftime(DEFAULT_SERVER_DATE_FORMAT)),
+            ]
         )
+        cls.currency_rate.rate = 1.30
 
         # Invoices
         cls.invoice_1 = cls.env["account.move"].create(
