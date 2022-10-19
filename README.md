@@ -17,7 +17,12 @@ TODO: add repo description.
 
 [//]: # (addons)
 
-This part will be replaced when running the oca-gen-addons-table script from OCA/maintainer-tools.
+Available addons
+----------------
+addon | version | maintainers | summary
+--- | --- | --- | ---
+[account_fiscal_year](account_fiscal_year/) | 16.0.1.0.1 | [![eLBati](https://github.com/eLBati.png?size=30px)](https://github.com/eLBati) | Create Account Fiscal Year
+[account_invoice_constraint_chronology](account_invoice_constraint_chronology/) | 16.0.1.0.2 |  | Account Invoice Constraint Chronology
 
 [//]: # (end addons)
 
