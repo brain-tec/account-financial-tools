@@ -38,7 +38,7 @@ addon | version | maintainers | summary
 [account_invoice_constraint_chronology](account_invoice_constraint_chronology/) | 14.0.1.0.0 |  | Account Invoice Constraint Chronology
 [account_journal_general_sequence](account_journal_general_sequence/) | 14.0.1.0.2 | [![yajo](https://github.com/yajo.png?size=30px)](https://github.com/yajo) | Add configurable sequence to account moves, per journal
 [account_journal_lock_date](account_journal_lock_date/) | 14.0.2.0.0 |  | Lock each journal independently
-[account_loan](account_loan/) | 14.0.1.0.2 |  | Account Loan management
+[account_loan](account_loan/) | 14.0.1.0.3 |  | Account Loan management
 [account_lock_date_update](account_lock_date_update/) | 14.0.2.0.0 |  | Allow an Account adviser to update locking date without having access to all technical settings
 [account_lock_to_date](account_lock_to_date/) | 14.0.1.0.0 |  | Allows to set an account lock date in the future.
 [account_menu](account_menu/) | 14.0.1.2.0 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Adds missing menu entries for Account module
@@ -60,6 +60,7 @@ addon | version | maintainers | summary
 [account_no_default](account_no_default/) | 14.0.1.0.0 | [![dreispt](https://github.com/dreispt.png?size=30px)](https://github.com/dreispt) | Remove default expense account for vendor bills journal
 [account_reconcile_show_boolean](account_reconcile_show_boolean/) | 14.0.1.0.0 | [![remi-filament](https://github.com/remi-filament.png?size=30px)](https://github.com/remi-filament) | Allows to create reconciliable accounts by showing boolean on form view
 [account_sequence_option](account_sequence_option/) | 14.0.1.0.2 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Manage sequence options for account.move, i.e., invoice, bill, entry
+[account_spread_cost_revenue](account_spread_cost_revenue/) | 14.0.1.0.0 | [![astirpe](https://github.com/astirpe.png?size=30px)](https://github.com/astirpe) | Spread costs and revenues over a custom period
 [account_template_active](account_template_active/) | 14.0.1.0.0 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Allow to disable / enable account template items (tax, fiscal position, account)
 [base_vat_optional_vies](base_vat_optional_vies/) | 14.0.1.0.3 |  | Optional validation of VAT via VIES
 [product_category_tax](product_category_tax/) | 14.0.1.1.0 |  | Configure taxes in the product category
