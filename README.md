@@ -24,7 +24,7 @@ addon | version | maintainers | summary
 [account_account_constraint_code](account_account_constraint_code/) | 14.0.1.0.0 |  | Forbid modification of code when account move line linked to the account
 [account_asset_batch_compute](account_asset_batch_compute/) | 14.0.1.0.0 |  | Add the possibility to compute assets in batch
 [account_asset_low_value](account_asset_low_value/) | 14.0.1.0.0 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Assets Management - Low Value Asset
-[account_asset_management](account_asset_management/) | 14.0.2.8.0 |  | Assets Management
+[account_asset_management](account_asset_management/) | 14.0.2.8.1 |  | Assets Management
 [account_asset_management_menu](account_asset_management_menu/) | 14.0.1.0.0 |  | Assets Management Menu
 [account_asset_number](account_asset_number/) | 14.0.1.0.0 |  | Assets Number
 [account_asset_transfer](account_asset_transfer/) | 14.0.1.0.1 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Asset Transfer from AUC to Asset
@@ -56,7 +56,7 @@ addon | version | maintainers | summary
 [account_move_print](account_move_print/) | 14.0.1.0.0 | [![JordiBForgeFlow](https://github.com/JordiBForgeFlow.png?size=30px)](https://github.com/JordiBForgeFlow) | Adds the option to print Journal Entries
 [account_move_reversal_choose_method](account_move_reversal_choose_method/) | 14.0.1.0.0 |  | Let's choose the Credit Method when adding a credit note to a journal entry.
 [account_move_template](account_move_template/) | 14.0.1.1.1 |  | Templates for recurring Journal Entries
-[account_netting](account_netting/) | 14.0.1.0.0 |  | Compensate AR/AP accounts from the same partner
+[account_netting](account_netting/) | 14.0.1.0.1 |  | Compensate AR/AP accounts from the same partner
 [account_no_default](account_no_default/) | 14.0.1.0.0 | [![dreispt](https://github.com/dreispt.png?size=30px)](https://github.com/dreispt) | Remove default expense account for vendor bills journal
 [account_reconcile_show_boolean](account_reconcile_show_boolean/) | 14.0.1.0.0 | [![remi-filament](https://github.com/remi-filament.png?size=30px)](https://github.com/remi-filament) | Allows to create reconciliable accounts by showing boolean on form view
 [account_sequence_option](account_sequence_option/) | 14.0.1.0.2 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Manage sequence options for account.move, i.e., invoice, bill, entry
