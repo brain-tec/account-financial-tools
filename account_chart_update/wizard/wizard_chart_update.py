@@ -13,6 +13,8 @@ import logging
 from contextlib import closing
 from io import StringIO
 
+from markupsafe import Markup
+
 from odoo import _, api, exceptions, fields, models, tools
 from odoo.tools import config
 
@@ -672,7 +674,7 @@ class WizardUpdateChartsAccounts(models.TransientModel):
         return set(models.MAGIC_COLUMNS) | specials
 
     @api.model
-    def diff_fields(self, template, real):
+    def diff_fields(self, template, real):  # noqa: C901
         """Get fields that are different in template and real records.
 
         :param odoo.models.Model template:
@@ -721,10 +723,18 @@ class WizardUpdateChartsAccounts(models.TransientModel):
                 ):
                     result[key] = expected
             else:
-                template_value = template[key]
+                template_value, real_value = template[key], real[key]
                 if template._name == "account.account.template" and key == "code":
                     template_value = self.padded_code(template["code"])
-                if template_value != real[key]:
+                # Normalize values when one field is Char and the other is Html
+                if (
+                    isinstance(template_value, str) and isinstance(real_value, Markup)
+                ) or (
+                    isinstance(template_value, Markup) and isinstance(real_value, str)
+                ):
+                    template_value = Markup(template_value).striptags()
+                    real_value = Markup(real_value).striptags()
+                if template_value != real_value:
                     result[key] = template_value
             # Avoid to cache recordset references
             if key in result:
@@ -778,6 +788,13 @@ class WizardUpdateChartsAccounts(models.TransientModel):
             ]
         )
 
+    def _domain_taxes_to_deactivate(self, found_taxes_ids):
+        return [
+            ("company_id", "=", self.company_id.id),
+            ("id", "not in", found_taxes_ids),
+            ("active", "=", True),
+        ]
+
     def _find_taxes(self):
         """Search for, and load, tax templates to create/update/delete."""
         found_taxes_ids = []
@@ -821,11 +838,7 @@ class WizardUpdateChartsAccounts(models.TransientModel):
         # search for taxes not in the template and propose them for
         # deactivation
         taxes_to_deactivate = self.env["account.tax"].search(
-            [
-                ("company_id", "=", self.company_id.id),
-                ("id", "not in", found_taxes_ids),
-                ("active", "=", True),
-            ]
+            self._domain_taxes_to_deactivate(found_taxes_ids)
         )
         for tax in taxes_to_deactivate:
             self.tax_ids.create(
