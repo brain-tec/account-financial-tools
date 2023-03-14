@@ -30,7 +30,7 @@ addon | version | maintainers | summary
 [account_asset_number](account_asset_number/) | 14.0.1.0.0 |  | Assets Number
 [account_asset_transfer](account_asset_transfer/) | 14.0.1.0.1 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Asset Transfer from AUC to Asset
 [account_balance_line](account_balance_line/) | 14.0.1.1.0 |  | Display balance totals in move line view
-[account_cash_deposit](account_cash_deposit/) | 14.0.1.1.0 |  | Manage cash deposits and cash orders
+[account_cash_deposit](account_cash_deposit/) | 14.0.1.2.0 |  | Manage cash deposits and cash orders
 [account_chart_update](account_chart_update/) | 14.0.2.0.5 |  | Wizard to update a company's account chart from a template
 [account_check_deposit](account_check_deposit/) | 14.0.1.1.0 |  | Manage deposit of checks to the bank
 [account_fiscal_month](account_fiscal_month/) | 14.0.1.0.0 |  | Provide a fiscal month date range type
@@ -39,7 +39,7 @@ addon | version | maintainers | summary
 [account_invoice_constraint_chronology](account_invoice_constraint_chronology/) | 14.0.1.0.0 |  | Account Invoice Constraint Chronology
 [account_journal_general_sequence](account_journal_general_sequence/) | 14.0.1.0.2 | [![yajo](https://github.com/yajo.png?size=30px)](https://github.com/yajo) | Add configurable sequence to account moves, per journal
 [account_journal_lock_date](account_journal_lock_date/) | 14.0.2.0.0 |  | Lock each journal independently
-[account_loan](account_loan/) | 14.0.1.0.5 |  | Account Loan management
+[account_loan](account_loan/) | 14.0.1.0.6 |  | Account Loan management
 [account_lock_date_update](account_lock_date_update/) | 14.0.2.0.0 |  | Allow an Account adviser to update locking date without having access to all technical settings
 [account_lock_to_date](account_lock_to_date/) | 14.0.1.0.0 |  | Allows to set an account lock date in the future.
 [account_menu](account_menu/) | 14.0.1.2.0 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Adds missing menu entries for Account module
