@@ -22,7 +22,7 @@ Available addons
 addon | version | maintainers | summary
 --- | --- | --- | ---
 [account_asset_low_value](account_asset_low_value/) | 15.0.1.0.0 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Assets Management - Low Value Asset
-[account_asset_management](account_asset_management/) | 15.0.1.0.2 |  | Assets Management
+[account_asset_management](account_asset_management/) | 15.0.1.0.3 |  | Assets Management
 [account_asset_management_menu](account_asset_management_menu/) | 15.0.1.0.0 |  | Assets Management Menu
 [account_asset_number](account_asset_number/) | 15.0.1.0.0 |  | Assets Number
 [account_balance_line](account_balance_line/) | 15.0.1.1.0 |  | Display balance totals in move line view
@@ -35,7 +35,7 @@ addon | version | maintainers | summary
 [account_fiscal_position_vat_check](account_fiscal_position_vat_check/) | 15.0.1.0.1 |  | Check VAT on invoice validation
 [account_fiscal_year](account_fiscal_year/) | 15.0.1.3.0 | [![eLBati](https://github.com/eLBati.png?size=30px)](https://github.com/eLBati) | Create Account Fiscal Year
 [account_invoice_constraint_chronology](account_invoice_constraint_chronology/) | 15.0.1.0.1 |  | Account Invoice Constraint Chronology
-[account_journal_general_sequence](account_journal_general_sequence/) | 15.0.1.0.6 | [![yajo](https://github.com/yajo.png?size=30px)](https://github.com/yajo) | Add configurable sequence to account moves, per journal
+[account_journal_general_sequence](account_journal_general_sequence/) | 15.0.1.1.0 | [![yajo](https://github.com/yajo.png?size=30px)](https://github.com/yajo) | Add configurable sequence to account moves, per journal
 [account_journal_lock_date](account_journal_lock_date/) | 15.0.1.0.1 |  | Lock each journal independently
 [account_lock_date_update](account_lock_date_update/) | 15.0.1.0.1 |  | Allow an Account adviser to update locking date without having access to all technical settings
 [account_lock_to_date](account_lock_to_date/) | 15.0.1.0.0 |  | Allows to set an account lock date in the future.
