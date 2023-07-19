@@ -7,9 +7,9 @@
 {
     "name": "Optional validation of VAT via VIES",
     "category": "Accounting",
-    "version": "14.0.1.0.3",
+    "version": "14.0.2.0.0",
     "depends": ["base_vat"],
-    "external_dependencies": {"python": ["vatnumber"]},
+    "external_dependencies": {"python": ["vatnumber<=1.0"]},
     "data": ["views/res_partner_view.xml"],
     "author": "Tecnativa," "Odoo Community Association (OCA)",
     "website": "https://github.com/OCA/account-financial-tools",
