@@ -25,6 +25,7 @@ addon | version | maintainers | summary
 [account_asset_management](account_asset_management/) | 16.0.1.0.3 |  | Assets Management
 [account_cash_deposit](account_cash_deposit/) | 16.0.1.2.0 |  | Manage cash deposits and cash orders
 [account_chart_update](account_chart_update/) | 16.0.2.0.2 |  | Wizard to update a company's account chart from a template
+[account_fiscal_month](account_fiscal_month/) | 16.0.1.0.0 |  | Provide a fiscal month date range type
 [account_fiscal_position_vat_check](account_fiscal_position_vat_check/) | 16.0.1.1.0 |  | Check VAT on invoice validation
 [account_fiscal_year](account_fiscal_year/) | 16.0.1.1.0 | [![eLBati](https://github.com/eLBati.png?size=30px)](https://github.com/eLBati) | Create Account Fiscal Year
 [account_fiscal_year_auto_create](account_fiscal_year_auto_create/) | 16.0.1.0.2 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Automatically create new fiscal years, based on the datas of the last fiscal years
@@ -32,6 +33,7 @@ addon | version | maintainers | summary
 [account_journal_general_sequence](account_journal_general_sequence/) | 16.0.2.0.1 | [![yajo](https://github.com/yajo.png?size=30px)](https://github.com/yajo) | Add configurable sequence to account moves, per journal
 [account_journal_lock_date](account_journal_lock_date/) | 16.0.1.0.0 |  | Lock each journal independently
 [account_lock_date_update](account_lock_date_update/) | 16.0.1.0.0 |  | Allow an Account adviser to update locking date without having access to all technical settings
+[account_move_fiscal_year](account_move_fiscal_year/) | 16.0.1.0.0 |  | Display the fiscal year on journal entries/item
 [account_move_line_purchase_info](account_move_line_purchase_info/) | 16.0.1.0.0 |  | Introduces the purchase order line to the journal items
 [account_move_line_sale_info](account_move_line_sale_info/) | 16.0.1.0.0 |  | Introduces the purchase order line to the journal items
 [account_move_line_tax_editable](account_move_line_tax_editable/) | 16.0.1.0.0 |  | Allows to edit taxes on non-posted account move lines
