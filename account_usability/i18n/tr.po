@@ -7,167 +7,162 @@ msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2023-10-28 13:25+0000\n"
-"Last-Translator: Adriano Prado <adrianojprado@gmail.com>\n"
+"Last-Translator: Metin GÜLSOY <metin.gulsoy@kitayazilim.com>\n"
 "Language-Team: none\n"
-"Language: pt_BR\n"
+"Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.17\n"
 
 #. module: account_usability
 #: model:ir.model,name:account_usability.model_account_group
 msgid "Account Group"
-msgstr "Grupo de Contas"
+msgstr "Hesap Grubu"
 
 #. module: account_usability
 #: model:ir.actions.act_window,name:account_usability.account_group_action
 #: model:ir.ui.menu,name:account_usability.account_group_menu
 msgid "Account Groups"
-msgstr "Grupos de Contas"
+msgstr "Hesap Grupları"
 
 #. module: account_usability
 #: model:ir.model,name:account_usability.model_account_account_tag
 msgid "Account Tag"
-msgstr "Marcador Conta"
+msgstr "Hesap Etiketi"
 
 #. module: account_usability
 #: model:ir.actions.act_window,name:account_usability.account_account_tag_action
 #: model:ir.ui.menu,name:account_usability.account_tag_menu
 msgid "Account Tags"
-msgstr "Marcadores Conta"
+msgstr "Hesap Etiketleri"
 
 #. module: account_usability
 #: model_terms:ir.ui.view,arch_db:account_usability.view_account_account_template_search
 #: model_terms:ir.ui.view,arch_db:account_usability.view_account_chart_template_seacrh
 msgid "Account Template"
-msgstr "Modelo de Conta"
+msgstr "Hesap Template"
 
 #. module: account_usability
 #: model:ir.actions.act_window,name:account_usability.account_account_template_action
 #: model:ir.ui.menu,name:account_usability.menu_account_account_template
 msgid "Account Templates"
-msgstr "Modelos de Conta"
+msgstr "Hesap Template"
 
 #. module: account_usability
 #: model_terms:ir.ui.view,arch_db:account_usability.view_account_account_template_search
 msgid "Account Type"
-msgstr "Tipo de Conta"
+msgstr "Hesap Türü"
 
 #. module: account_usability
 #: model:ir.model.fields,field_description:account_usability.field_account_account_tag__account_ids
 #: model:ir.model.fields,field_description:account_usability.field_account_group__account_ids
 #: model_terms:ir.ui.view,arch_db:account_usability.view_account_group_form
 msgid "Accounts"
-msgstr "Contas"
+msgstr "Hesaplar"
 
 #. module: account_usability
 #: model_terms:ir.ui.view,arch_db:account_usability.res_config_settings_view_form
 msgid "Anglo-Saxon Accounting"
-msgstr "Contabilidade Angro-Saxonica"
+msgstr ""
 
 #. module: account_usability
 #: model:ir.ui.menu,name:account_usability.menu_accounting_statement_bank
 msgid "Bank Statements"
-msgstr "Estratos Bancários"
+msgstr "Banka Ekstreleri"
 
 #. module: account_usability
 #: model:ir.ui.menu,name:account_usability.menu_accounting_bank_and_cash
 msgid "Bank and Cash"
-msgstr "Banco e Dinheiro"
+msgstr "Banka ve Kasa"
 
 #. module: account_usability
 #: model:ir.ui.menu,name:account_usability.menu_accounting_statement_cash
 msgid "Cash Registers"
-msgstr "Registros de Dinheiro"
+msgstr "Yazar Kasalar"
 
 #. module: account_usability
 #: model:ir.actions.act_window,name:account_usability.action_account_chart_template_form
 #: model:ir.ui.menu,name:account_usability.menu_account_chart_template
 msgid "Chart of Accounts Templates"
-msgstr "Modelo Plano de Contas"
+msgstr "Hesap Planı Şablonları"
 
 #. module: account_usability
 #: model:ir.model,name:account_usability.model_res_config_settings
 msgid "Config Settings"
-msgstr "Configurações"
+msgstr "Yapılandırma Ayarları"
 
 #. module: account_usability
 #: model_terms:ir.ui.view,arch_db:account_usability.view_account_account_template_form
 #: model_terms:ir.ui.view,arch_db:account_usability.view_account_chart_template_form
 msgid "Default Taxes"
-msgstr "Impostos Padrão"
+msgstr "Varsayılan Vergiler"
 
 #. module: account_usability
 #: model_terms:ir.ui.view,arch_db:account_usability.view_account_chart_template_seacrh
 msgid "Expense Account"
-msgstr "Conta Despesa"
+msgstr "Masraf hesabı"
 
 #. module: account_usability
 #: model_terms:ir.ui.view,arch_db:account_usability.view_account_fiscal_position_template_form
 msgid "Extra configuration"
-msgstr "Configuração Extra"
+msgstr "Ekstra yapılandırma"
 
 #. module: account_usability
 #: model:ir.actions.act_window,name:account_usability.account_fiscal_position_template_action
 #: model:ir.ui.menu,name:account_usability.menu_account_fiscal_position_template
 msgid "Fiscal Position Templates"
-msgstr "Modelos Posição Fiscal"
+msgstr "Mali Pozisyon Şablonları"
 
 #. module: account_usability
 #: model_terms:ir.ui.view,arch_db:account_usability.view_account_account_template_search
 #: model_terms:ir.ui.view,arch_db:account_usability.view_account_chart_template_seacrh
 msgid "Group By"
-msgstr "Agrupar por"
+msgstr ""
 
 #. module: account_usability
 #: model_terms:ir.ui.view,arch_db:account_usability.view_account_chart_template_seacrh
 msgid "Income Account"
-msgstr "Conta de Receita"
+msgstr "Gelir Hesabı"
 
 #. module: account_usability
 #: model_terms:ir.ui.view,arch_db:account_usability.view_account_account_template_form
 msgid "Internal notes..."
-msgstr "Notas Internas..."
+msgstr "İç notlar..."
 
 #. module: account_usability
 #: model_terms:ir.ui.view,arch_db:account_usability.view_account_fiscal_position_template_form
 msgid "Note"
-msgstr "Anotação"
+msgstr "Not"
 
 #. module: account_usability
 #: model_terms:ir.ui.view,arch_db:account_usability.view_account_account_template_form
 msgid "Notes"
-msgstr "Anotações"
+msgstr "Notlar"
 
 #. module: account_usability
 #: model_terms:ir.ui.view,arch_db:account_usability.view_account_chart_template_seacrh
 msgid "Payable Account"
-msgstr "Conta a Pagar"
+msgstr "Borç Hesabı"
 
 #. module: account_usability
 #: model_terms:ir.ui.view,arch_db:account_usability.view_account_chart_template_form
 msgid "Properties"
-msgstr "Propriedades"
+msgstr "Özellikler"
 
 #. module: account_usability
 #: model_terms:ir.ui.view,arch_db:account_usability.view_account_chart_template_seacrh
 msgid "Receivable Account"
-msgstr "Conta a Receber"
+msgstr "Alacak Hesabı"
 
 #. module: account_usability
 #: model_terms:ir.ui.view,arch_db:account_usability.res_config_settings_view_form
 msgid ""
 "Record the cost of a good as an expense when this good is\n"
-"                                invoiced to a final customer (instead of "
-"recording the cost as soon\n"
+"                                invoiced to a final customer (instead of recording the cost as soon\n"
 "                                as the product is received in stock)."
 msgstr ""
-"Registre o custo de um bem como despesa quando esse bem for\n"
-"                                 faturado a um cliente final (em vez de "
-"registrar o custo assim que\n"
-"                                 conforme o produto é recebido em estoque)."
 
 #. module: account_usability
 #: model:ir.model.fields,help:account_usability.field_res_config_settings__anglo_saxon_accounting
@@ -175,30 +170,28 @@ msgid ""
 "Record the cost of a good as an expense when this good is invoiced to a "
 "final customer."
 msgstr ""
-"Registre o custo de um bem como despesa quando esse bem for faturado a um "
-"cliente final."
 
 #. module: account_usability
 #: model:ir.model,name:account_usability.model_account_tax_group
 msgid "Tax Group"
-msgstr "Grupo de Imposto"
+msgstr "Vergi Grubu"
 
 #. module: account_usability
 #: model:ir.ui.menu,name:account_usability.menu_account_tax_template
 msgid "Tax Templates"
-msgstr "Modelos de Impostos"
+msgstr "Vergi Şablonları"
 
 #. module: account_usability
 #: model:ir.model.fields,field_description:account_usability.field_account_tax_group__tax_ids
 msgid "Taxes"
-msgstr "Impostos"
+msgstr "Vergiler"
 
 #. module: account_usability
 #: model:ir.ui.menu,name:account_usability.menu_account_coa_settings
 msgid "Templates"
-msgstr "Modelos"
+msgstr ""
 
 #. module: account_usability
 #: model:ir.model.fields,field_description:account_usability.field_res_config_settings__anglo_saxon_accounting
 msgid "Use anglo-saxon accounting"
-msgstr "Usar Contabilidade Angro-Saxonica"
+msgstr ""
