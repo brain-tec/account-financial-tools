@@ -26,7 +26,7 @@ addon | version | maintainers | summary
 [account_asset_compute_batch](account_asset_compute_batch/) | 14.0.1.0.1 |  | Assets - Compute Depre. in Batch
 [account_asset_from_expense](account_asset_from_expense/) | 14.0.1.0.0 |  | Assets from Expenses
 [account_asset_low_value](account_asset_low_value/) | 14.0.1.0.0 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Assets Management - Low Value Asset
-[account_asset_management](account_asset_management/) | 14.0.3.1.2 |  | Assets Management
+[account_asset_management](account_asset_management/) | 14.0.3.1.3 |  | Assets Management
 [account_asset_management_menu](account_asset_management_menu/) | 14.0.1.0.0 |  | Assets Management Menu
 [account_asset_number](account_asset_number/) | 14.0.1.0.0 |  | Assets Number
 [account_asset_stock_move](account_asset_stock_move/) | 14.0.1.0.0 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Assets Management - Create asset during stock move
@@ -47,6 +47,7 @@ addon | version | maintainers | summary
 [account_lock_to_date](account_lock_to_date/) | 14.0.1.0.0 |  | Allows to set an account lock date in the future.
 [account_menu](account_menu/) | 14.0.1.2.2 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Adds missing menu entries for Account module
 [account_move_budget](account_move_budget/) | 14.0.1.0.1 |  | Create Accounting Budgets
+[account_move_default_journal](account_move_default_journal/) | 14.0.1.0.0 |  | Configure a default journal for new account moves
 [account_move_fiscal_month](account_move_fiscal_month/) | 14.0.1.0.0 |  | Display the fiscal month on journal entries/item
 [account_move_fiscal_year](account_move_fiscal_year/) | 14.0.1.0.1 |  | Display the fiscal year on journal entries/item
 [account_move_force_removal](account_move_force_removal/) | 14.0.1.0.1 |  | Allow force removal account moves
