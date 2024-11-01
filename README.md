@@ -6,7 +6,9 @@
 [![Translation Status](https://translation.odoo-community.org/widgets/account-financial-tools-18-0/-/svg-badge.svg)](https://translation.odoo-community.org/engage/account-financial-tools-18-0/?utm_source=widget)
 
 <!-- /!\ do not modify above this line -->
-
+# BT Customization
+Open OCA PR merged into repositry
+- ((OCA#1954)[https://github.com/OCA/account-financial-tools/pull/1954]) account_move_name_sequence
 # account-financial-tools
 
 account-financial-tools
