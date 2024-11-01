@@ -8,7 +8,7 @@
 <!-- /!\ do not modify above this line -->
 # BT Customization
 Open OCA PR merged into repositry
-- ((OCA#1954)[https://github.com/OCA/account-financial-tools/pull/1954]) account_move_name_sequence
+- ([https://github.com/OCA/account-financial-tools/pull/1954]) account_move_name_sequence
 # account-financial-tools
 
 account-financial-tools
