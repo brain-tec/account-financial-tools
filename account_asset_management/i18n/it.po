@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: account-financial-tools (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-28 23:24+0000\n"
-"PO-Revision-Date: 2024-10-03 10:06+0000\n"
+"PO-Revision-Date: 2025-01-12 15:06+0000\n"
 "Last-Translator: mymage <stefano.consolaro@mymage.it>\n"
 "Language-Team: Italian (http://www.transifex.com/oca/"
 "OCA-account-financial-tools-8-0/language/it/)\n"
@@ -421,7 +421,7 @@ msgstr "Conferma Immobilizzazione"
 #. module: account_asset_management
 #: view:account.asset.asset:account_asset_management.view_account_asset_asset_form
 msgid "Create Move"
-msgstr "Crea Movimento"
+msgstr "Crea movimento"
 
 #. module: account_asset_management
 #: code:addons/account_asset_management/wizard/wizard_asset_compute.py:65
