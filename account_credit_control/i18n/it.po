@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: account-financial-tools (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-25 22:30+0000\n"
-"PO-Revision-Date: 2024-11-04 16:06+0000\n"
+"PO-Revision-Date: 2025-01-25 15:06+0000\n"
 "Last-Translator: mymage <stefano.consolaro@mymage.it>\n"
 "Language-Team: Italian (http://www.transifex.com/oca/"
 "OCA-account-financial-tools-8-0/language/it/)\n"
@@ -297,7 +297,7 @@ msgstr "Modifica la politica di credito attuale"
 #. module: account_credit_control
 #: view:credit.control.policy.changer:account_credit_control.credit_control_policy_changer_form
 msgid "Change the overdue level of current invoice"
-msgstr "Cambio del livello di sollecito a questa fattura."
+msgstr "Modifica il livello di ritardo della fattura corrente"
 
 #. module: account_credit_control
 #: view:credit.control.marker:account_credit_control.credit_line_marker_form
@@ -1004,7 +1004,7 @@ msgstr "E-mail in uscita"
 #. module: account_credit_control
 #: field:credit.control.line,policy_level_id:0
 msgid "Overdue Level"
-msgstr "Livello ritardo"
+msgstr "Livello scaduto"
 
 #. module: account_credit_control
 #: field:credit.control.communication,partner_id:0
@@ -1049,7 +1049,7 @@ msgstr ""
 #. module: account_credit_control
 #: field:credit.control.line,level:0
 msgid "Policy Level"
-msgstr "Livello Regola"
+msgstr "Livello politica"
 
 #. module: account_credit_control
 #: field:credit.control.policy,level_ids:0
@@ -1060,7 +1060,7 @@ msgstr "Livelli politica"
 #: view:credit.control.policy:account_credit_control.credit_control_policy_form
 #: view:credit.control.policy.level:account_credit_control.credit_mangement_policy_level_form
 msgid "Policy level"
-msgstr "Livello Regola"
+msgstr "Livello politica"
 
 #. module: account_credit_control
 #: view:credit.control.policy:account_credit_control.credit_control_policy_form
