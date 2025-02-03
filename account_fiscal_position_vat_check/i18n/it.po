@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: account-financial-tools (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-01 13:25+0000\n"
-"PO-Revision-Date: 2024-02-22 10:34+0000\n"
+"PO-Revision-Date: 2025-02-03 11:06+0000\n"
 "Last-Translator: mymage <stefano.consolaro@mymage.it>\n"
-"Language-Team: Italian (http://www.transifex.com/oca/OCA-account-financial-"
-"tools-8-0/language/it/)\n"
+"Language-Team: Italian (http://www.transifex.com/oca/"
+"OCA-account-financial-tools-8-0/language/it/)\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #. module: account_fiscal_position_vat_check
 #: model_terms:ir.ui.view,arch_db:account_fiscal_position_vat_check.view_partner_property_form
@@ -49,6 +49,11 @@ msgid ""
 "partner '%(rp)s' doesn't have a VAT number in Odoo. Please add the VAT "
 "number of this partner in Odoo and try to validate again."
 msgstr ""
+"Stai tentando di convalidare una fattura/rimborso cliente con la posizione "
+"fiscale '%(fp)s' che richiede che il cliente abbia un numero di partita IVA. "
+"Ma il partner '%(rp)s' non ha un numero di partita IVA in Odoo. Aggiungere "
+"il numero di partita IVA di questo partner in Odoo e provre a convalidare di "
+"nuovo."
 
 #. module: account_fiscal_position_vat_check
 #: model_terms:ir.ui.view,arch_db:account_fiscal_position_vat_check.view_partner_property_form
