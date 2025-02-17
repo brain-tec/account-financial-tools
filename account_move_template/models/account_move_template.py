@@ -55,10 +55,10 @@ class AccountMoveTemplate(models.Model):
         except ValueError as err:
             raise UserError(
                 _(
-                    "Impossible to compute the formula of line with sequence %(sequence)s "
-                    "(formula: %(code)s). Check that the lines used in the formula "
-                    "really exists and have a lower sequence than the current "
-                    "line.",
+                    "Impossible to compute the formula of line with sequence "
+                    "%(sequence)s (formula: %(code)s). Check that the lines used in "
+                    "the formula really exists and have a lower sequence than "
+                    "the current line.",
                     sequence=line.sequence,
                     code=line.python_code,
                 )
@@ -66,8 +66,9 @@ class AccountMoveTemplate(models.Model):
         except SyntaxError as err:
             raise UserError(
                 _(
-                    "Impossible to compute the formula of line with sequence %(sequence)s "
-                    "(formula: %(code)s): the syntax of the formula is wrong.",
+                    "Impossible to compute the formula of line with sequence "
+                    "%(sequence)s (formula: %(code)s): the syntax of the formula "
+                    "is wrong.",
                     sequence=line.sequence,
                     code=line.python_code,
                 )
