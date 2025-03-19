@@ -46,6 +46,7 @@ addon | version | maintainers | summary
 [account_move_fiscal_month](account_move_fiscal_month/) | 16.0.1.0.0 |  | Display the fiscal month on journal entries/item
 [account_move_fiscal_year](account_move_fiscal_year/) | 16.0.1.0.0 |  | Display the fiscal year on journal entries/item
 [account_move_line_check_number](account_move_line_check_number/) | 16.0.1.0.1 | [![ps-tubtim](https://github.com/ps-tubtim.png?size=30px)](https://github.com/ps-tubtim) | Add the check number in the journal items
+[account_move_line_landed_cost_info](account_move_line_landed_cost_info/) | 16.0.1.0.0 |  | Introduces the landed cost adjustment lines to the journal items
 [account_move_line_purchase_info](account_move_line_purchase_info/) | 16.0.1.0.0 |  | Introduces the purchase order line to the journal items
 [account_move_line_repair_info](account_move_line_repair_info/) | 16.0.1.0.0 |  | Introduces the repair order to the journal items
 [account_move_line_sale_info](account_move_line_sale_info/) | 16.0.1.0.0 |  | Introduces the purchase order line to the journal items
@@ -54,6 +55,7 @@ addon | version | maintainers | summary
 [account_move_post_date_user](account_move_post_date_user/) | 16.0.1.0.0 | [![JordiMForgeFlow](https://github.com/JordiMForgeFlow.png?size=30px)](https://github.com/JordiMForgeFlow) | Trace journal entry posting date and user.
 [account_move_print](account_move_print/) | 16.0.1.0.0 | [![JordiBForgeFlow](https://github.com/JordiBForgeFlow.png?size=30px)](https://github.com/JordiBForgeFlow) | Adds the option to print Journal Entries
 [account_move_template](account_move_template/) | 16.0.1.0.2 |  | Templates for recurring Journal Entries
+[account_move_transfer_partner](account_move_transfer_partner/) | 16.0.1.0.0 | [![ChrisOForgeFlow](https://github.com/ChrisOForgeFlow.png?size=30px)](https://github.com/ChrisOForgeFlow) | Automation to translate amount due from many partners to one partner
 [account_netting](account_netting/) | 16.0.1.0.1 |  | Compensate AR/AP accounts from the same partner
 [account_partner_required](account_partner_required/) | 16.0.1.0.0 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Adds an option 'partner policy' on accounts
 [account_sequence_option](account_sequence_option/) | 16.0.1.0.0 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Manage sequence options for account.move, i.e., invoice, bill, entry
