@@ -11,6 +11,7 @@ setuptools.setup(
         'odoo-addon-account_account_tag_code>=16.0dev,<16.1dev',
         'odoo-addon-account_asset_batch_compute>=16.0dev,<16.1dev',
         'odoo-addon-account_asset_management>=16.0dev,<16.1dev',
+        'odoo-addon-account_asset_management_stock_lot>=16.0dev,<16.1dev',
         'odoo-addon-account_asset_number>=16.0dev,<16.1dev',
         'odoo-addon-account_asset_transfer>=16.0dev,<16.1dev',
         'odoo-addon-account_bank_statement_chatter>=16.0dev,<16.1dev',

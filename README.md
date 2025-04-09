@@ -24,6 +24,7 @@ addon | version | maintainers | summary
 [account_account_tag_code](account_account_tag_code/) | 16.0.1.0.0 |  | Add a code field to the accounts tags
 [account_asset_batch_compute](account_asset_batch_compute/) | 16.0.1.0.0 |  | Add the possibility to compute assets in batch
 [account_asset_management](account_asset_management/) | 16.0.1.2.8 |  | Assets Management
+[account_asset_management_stock_lot](account_asset_management_stock_lot/) | 16.0.1.0.0 |  | Assets Management Stock Lot
 [account_asset_number](account_asset_number/) | 16.0.1.1.0 |  | Assets Number
 [account_asset_transfer](account_asset_transfer/) | 16.0.1.0.0 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Asset Transfer from AUC to Asset
 [account_bank_statement_chatter](account_bank_statement_chatter/) | 16.0.1.0.0 | [![cubells](https://github.com/cubells.png?size=30px)](https://github.com/cubells) | Chatter on bank statements
@@ -47,7 +48,7 @@ addon | version | maintainers | summary
 [account_move_fiscal_year](account_move_fiscal_year/) | 16.0.1.0.0 |  | Display the fiscal year on journal entries/item
 [account_move_line_check_number](account_move_line_check_number/) | 16.0.1.0.1 | [![ps-tubtim](https://github.com/ps-tubtim.png?size=30px)](https://github.com/ps-tubtim) | Add the check number in the journal items
 [account_move_line_landed_cost_info](account_move_line_landed_cost_info/) | 16.0.1.0.0 |  | Introduces the landed cost adjustment lines to the journal items
-[account_move_line_purchase_info](account_move_line_purchase_info/) | 16.0.1.0.0 |  | Introduces the purchase order line to the journal items
+[account_move_line_purchase_info](account_move_line_purchase_info/) | 16.0.2.0.0 |  | Introduces the purchase order line to the journal items
 [account_move_line_repair_info](account_move_line_repair_info/) | 16.0.1.0.0 |  | Introduces the repair order to the journal items
 [account_move_line_sale_info](account_move_line_sale_info/) | 16.0.1.0.0 |  | Introduces the purchase order line to the journal items
 [account_move_line_tax_editable](account_move_line_tax_editable/) | 16.0.1.0.1 |  | Allows to edit taxes on non-posted account move lines
