@@ -10,6 +10,7 @@ setuptools.setup(
     install_requires=[
         'odoo-addon-account_account_tag_code>=16.0dev,<16.1dev',
         'odoo-addon-account_asset_batch_compute>=16.0dev,<16.1dev',
+        'odoo-addon-account_asset_low_value>=16.0dev,<16.1dev',
         'odoo-addon-account_asset_management>=16.0dev,<16.1dev',
         'odoo-addon-account_asset_management_stock_lot>=16.0dev,<16.1dev',
         'odoo-addon-account_asset_number>=16.0dev,<16.1dev',
