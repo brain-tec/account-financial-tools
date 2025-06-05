@@ -40,17 +40,17 @@ addon | version | maintainers | summary
 [account_cash_basis_group_base_line](account_cash_basis_group_base_line/) | 13.0.0.0.1 |  | Compacting the creation of Journal Lines for CABA base lines.
 [account_chart_update](account_chart_update/) | 13.0.2.0.1 |  | Wizard to update a company's account chart from a template
 [account_check_deposit](account_check_deposit/) | 13.0.1.2.0 |  | Manage deposit of checks to the bank
-[account_document_reversal](account_document_reversal/) | 13.0.1.0.4 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Create reversed journal entries when cancel document
+[account_document_reversal](account_document_reversal/) | 13.0.1.0.4 | <a href='https://github.com/kittiu'><img src='https://github.com/kittiu.png' width='32' height='32' style='border-radius:50%;' alt='kittiu'/></a> | Create reversed journal entries when cancel document
 [account_fiscal_month](account_fiscal_month/) | 13.0.1.0.0 |  | Provide a fiscal month date range type
-[account_fiscal_position_allowed_journal](account_fiscal_position_allowed_journal/) | 13.0.1.0.0 | [![ThomasBinsfeld](https://github.com/ThomasBinsfeld.png?size=30px)](https://github.com/ThomasBinsfeld) | Allow defining allowed journals on fiscal positions. Related invoices can only use one of the allowed journals on the fiscal position.
-[account_fiscal_year](account_fiscal_year/) | 13.0.1.0.0 | [![eLBati](https://github.com/eLBati.png?size=30px)](https://github.com/eLBati) | Create a menu for Account Fiscal Year
+[account_fiscal_position_allowed_journal](account_fiscal_position_allowed_journal/) | 13.0.1.0.0 | <a href='https://github.com/ThomasBinsfeld'><img src='https://github.com/ThomasBinsfeld.png' width='32' height='32' style='border-radius:50%;' alt='ThomasBinsfeld'/></a> | Allow defining allowed journals on fiscal positions. Related invoices can only use one of the allowed journals on the fiscal position.
+[account_fiscal_year](account_fiscal_year/) | 13.0.1.0.0 | <a href='https://github.com/eLBati'><img src='https://github.com/eLBati.png' width='32' height='32' style='border-radius:50%;' alt='eLBati'/></a> | Create a menu for Account Fiscal Year
 [account_invoice_constraint_chronology](account_invoice_constraint_chronology/) | 13.0.1.0.2 |  | Account Invoice Constraint Chronology
 [account_journal_lock_date](account_journal_lock_date/) | 13.0.1.0.0 |  | Lock each journal independently
 [account_journal_restrict_mode](account_journal_restrict_mode/) | 13.0.1.0.0 |  | Lock All Posted Entries of Journals.
 [account_loan](account_loan/) | 13.0.1.1.0 |  | Account Loan management
 [account_lock_date_update](account_lock_date_update/) | 13.0.1.0.0 |  | Allow an Account adviser to update locking date without having access to all technical settings
 [account_lock_to_date](account_lock_to_date/) | 13.0.1.0.1 |  | Allows to set an account lock date in the future.
-[account_maturity_date_default](account_maturity_date_default/) | 13.0.2.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Account Maturity Date Default
+[account_maturity_date_default](account_maturity_date_default/) | 13.0.2.0.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Account Maturity Date Default
 [account_menu](account_menu/) | 13.0.1.0.1 |  | Adds missing menu entries for Account module
 [account_move_budget](account_move_budget/) | 13.0.1.0.0 |  | Create Accounting Budgets
 [account_move_force_removal](account_move_force_removal/) | 13.0.1.0.0 |  | Allow force removal account moves
@@ -60,12 +60,12 @@ addon | version | maintainers | summary
 [account_move_line_sale_info](account_move_line_sale_info/) | 13.0.1.0.5 |  | Introduces the purchase order line to the journal items
 [account_move_line_tax_editable](account_move_line_tax_editable/) | 13.0.2.0.0 |  | Allows to edit taxes on non-posted account move lines
 [account_move_line_used_currency](account_move_line_used_currency/) | 13.0.1.0.0 |  | Account Move Line Amount Currency
-[account_move_post_date_user](account_move_post_date_user/) | 13.0.1.0.0 | [![JordiMForgeFlow](https://github.com/JordiMForgeFlow.png?size=30px)](https://github.com/JordiMForgeFlow) | Trace journal entry posting date and user.
-[account_move_print](account_move_print/) | 13.0.1.0.0 | [![JordiBForgeFlow](https://github.com/JordiBForgeFlow.png?size=30px)](https://github.com/JordiBForgeFlow) | Adds the option to print Journal Entries
+[account_move_post_date_user](account_move_post_date_user/) | 13.0.1.0.0 | <a href='https://github.com/JordiMForgeFlow'><img src='https://github.com/JordiMForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='JordiMForgeFlow'/></a> | Trace journal entry posting date and user.
+[account_move_print](account_move_print/) | 13.0.1.0.0 | <a href='https://github.com/JordiBForgeFlow'><img src='https://github.com/JordiBForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='JordiBForgeFlow'/></a> | Adds the option to print Journal Entries
 [account_move_reversal_choose_method](account_move_reversal_choose_method/) | 13.0.1.0.0 |  | Let's choose the Credit Method when adding a credit note to a journal entry.
 [account_move_template](account_move_template/) | 13.0.1.2.0 |  | Templates for recurring Journal Entries
 [account_netting](account_netting/) | 13.0.1.0.1 |  | Compensate AR/AP accounts from the same partner
-[account_spread_cost_revenue](account_spread_cost_revenue/) | 13.0.1.0.1 | [![astirpe](https://github.com/astirpe.png?size=30px)](https://github.com/astirpe) | Spread costs and revenues over a custom period
+[account_spread_cost_revenue](account_spread_cost_revenue/) | 13.0.1.0.1 | <a href='https://github.com/astirpe'><img src='https://github.com/astirpe.png' width='32' height='32' style='border-radius:50%;' alt='astirpe'/></a> | Spread costs and revenues over a custom period
 [account_tax_repartition_line_tax_group_account](account_tax_repartition_line_tax_group_account/) | 13.0.1.0.0 |  | Set a default account from tax group to tax repartition lines
 [base_vat_optional_vies](base_vat_optional_vies/) | 13.0.1.0.1 |  | Optional validation of VAT via VIES
 [product_category_tax](product_category_tax/) | 13.0.1.2.2 |  | Configure taxes in the product category
