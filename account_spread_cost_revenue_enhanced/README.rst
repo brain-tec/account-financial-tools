@@ -69,6 +69,9 @@ Contributors
 ------------
 
 -  Kitti U. <kittiu@ecosoft.co.th>
+-  `APSL <https://apsl.tech>`__:
+
+   -  Bernat Obrador <bobrador@apsl.net>
 
 Maintainers
 -----------
