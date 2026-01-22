@@ -24,14 +24,14 @@ class AccountSpread(models.Model):
     @api.constrains("invoice_id", "invoice_type")
     def _check_invoice_type(self):
         """When linked with journal entry, no check"""
-        spread = self.filtered(lambda l: not l.invoice_id.move_type == "entry")
+        spread = self.filtered(lambda line: not line.invoice_id.move_type == "entry")
         super(AccountSpread, spread)._check_invoice_type()
 
     @api.constrains("create_move_type", "debit_account_id", "credit_account_id")
     def _check_entry_type(self):
         if self.filtered(
-            lambda l: l.create_move_type != "entry"
-            and l.debit_account_id != l.credit_account_id
+            lambda line: line.create_move_type != "entry"
+            and line.debit_account_id != line.credit_account_id
         ):
             raise UserError(
                 _(
