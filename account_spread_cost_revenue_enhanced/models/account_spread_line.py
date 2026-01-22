@@ -10,6 +10,8 @@ class AccountInvoiceSpreadLine(models.Model):
     def _prepare_move(self):
         """Create with move_type, i.e., in_invoice instead of normal entry"""
         res = super()._prepare_move()
+        # It will allays be created from spread
+        res["is_created_from_spread"] = True
         if self.spread_id.create_move_type != "entry":
             invoice_line = res.pop("line_ids")[0][2]
             res["name"] = False

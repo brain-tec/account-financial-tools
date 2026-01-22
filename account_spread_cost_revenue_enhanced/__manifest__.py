@@ -16,6 +16,7 @@
         "security/ir.model.access.csv",
         "wizards/account_spread_link_move_line.xml",
         "views/account_spread.xml",
+        "views/account_move.xml",
     ],
     "installable": True,
 }
