@@ -1,4 +1,7 @@
 
+[![Support the OCA](https://odoo-community.org/readme-banner-image)](https://odoo-community.org/get-involved?utm_source=repo-readme)
+
+# account-financial-tools
 [![Runboat](https://img.shields.io/badge/runboat-Try%20me-875A7B.png)](https://runboat.odoo-community.org/builds?repo=OCA/account-financial-tools&target_branch=19.0)
 [![Pre-commit Status](https://github.com/OCA/account-financial-tools/actions/workflows/pre-commit.yml/badge.svg?branch=19.0)](https://github.com/OCA/account-financial-tools/actions/workflows/pre-commit.yml?query=branch%3A19.0)
 [![Build Status](https://github.com/OCA/account-financial-tools/actions/workflows/test.yml/badge.svg?branch=19.0)](https://github.com/OCA/account-financial-tools/actions/workflows/test.yml?query=branch%3A19.0)
@@ -6,8 +9,6 @@
 [![Translation Status](https://translation.odoo-community.org/widgets/account-financial-tools-19-0/-/svg-badge.svg)](https://translation.odoo-community.org/engage/account-financial-tools-19-0/?utm_source=widget)
 
 <!-- /!\ do not modify above this line -->
-
-# account-financial-tools
 
 account-financial-tools
 
@@ -22,10 +23,12 @@ Available addons
 addon | version | maintainers | summary
 --- | --- | --- | ---
 [account_account_tag_code](account_account_tag_code/) | 19.0.1.0.0 |  | Add a code field to the accounts tags
-[account_asset_management](account_asset_management/) | 19.0.1.0.0 |  | Assets Management
+[account_asset_management](account_asset_management/) | 19.0.1.0.1 |  | Assets Management
 [account_chart_update](account_chart_update/) | 19.0.1.1.0 |  | Wizard to update a company's account chart from a template
+[account_fiscal_position_vat_check](account_fiscal_position_vat_check/) | 19.0.1.0.1 |  | Check VAT on invoice validation
 [account_fiscal_year](account_fiscal_year/) | 19.0.1.0.0 | <a href='https://github.com/eLBati'><img src='https://github.com/eLBati.png' width='32' height='32' style='border-radius:50%;' alt='eLBati'/></a> | Create Account Fiscal Year
 [account_invoice_constraint_chronology](account_invoice_constraint_chronology/) | 19.0.1.0.1 |  | Account Invoice Constraint Chronology
+[account_journal_general_sequence](account_journal_general_sequence/) | 19.0.1.0.2 | <a href='https://github.com/yajo'><img src='https://github.com/yajo.png' width='32' height='32' style='border-radius:50%;' alt='yajo'/></a> | Add configurable sequence to account moves, per journal
 [account_journal_lock_date](account_journal_lock_date/) | 19.0.1.0.0 |  | Lock each journal independently
 [account_journal_restrict_mode](account_journal_restrict_mode/) | 19.0.1.0.0 |  | Lock All Posted Entries of Journals.
 [account_move_name_sequence](account_move_name_sequence/) | 19.0.1.0.1 | <a href='https://github.com/alexis-via'><img src='https://github.com/alexis-via.png' width='32' height='32' style='border-radius:50%;' alt='alexis-via'/></a> <a href='https://github.com/moylop260'><img src='https://github.com/moylop260.png' width='32' height='32' style='border-radius:50%;' alt='moylop260'/></a> <a href='https://github.com/luisg123v'><img src='https://github.com/luisg123v.png' width='32' height='32' style='border-radius:50%;' alt='luisg123v'/></a> | Generate journal entry number from sequence
