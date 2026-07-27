@@ -17,6 +17,7 @@
         "security/ir.model.access.csv",
         "views/account_journal_dashboard.xml",
         "views/account_dashboard_banner_cell.xml",
+        "views/account_move.xml",
     ],
     "assets": {
         "web.assets_backend": [
