@@ -63,21 +63,21 @@ customize the labels if necessary.
 
 Many cell types are available:
 
-- **Income** with 4 options: *Fiscal Year-to-date Income*, *Year-to-date
-  Income*, *Quarter-to-date Income* and *Month-to-date Income*. It
-  displays the period balance of the accounts with type *Income* and
-  *Other Income*.
-- **Liquidity**: it display the ending balance of the accounts linked to
-  a bank or cash or credit journal.
-- **Customer Debt**: it displays the ending balance of the default
-  *Account Receivable* and, if the point of sale is installed, the
-  intermediary account used for unidentified customers.
-- **Customer Overdue**: same as the *Customer Debt*, but limited to
-  journal items with a due date in the past.
-- **Supplier Debt**: it displays the ending balance of the default
-  *Account Payable*.
-- **Lock dates**: all the lock dates are available: *Tax Return Lock
-  Date*, *Journals Entries Lock Date* and *All Users Lock Date*.
+-  **Income** with 4 options: *Fiscal Year-to-date Income*,
+   *Year-to-date Income*, *Quarter-to-date Income* and *Month-to-date
+   Income*. It displays the period balance of the accounts with type
+   *Income* and *Other Income*.
+-  **Liquidity**: it display the ending balance of the accounts linked
+   to a bank or cash or credit journal.
+-  **Customer Debt**: it displays the ending balance of the default
+   *Account Receivable* and, if the point of sale is installed, the
+   intermediary account used for unidentified customers.
+-  **Customer Overdue**: same as the *Customer Debt*, but limited to
+   journal items with a due date in the past.
+-  **Supplier Debt**: it displays the ending balance of the default
+   *Account Payable*.
+-  **Lock dates**: all the lock dates are available: *Tax Return Lock
+   Date*, *Journals Entries Lock Date* and *All Users Lock Date*.
 
 The module is designed to allow the modification of the computation of
 the different cell types by inheriting the method
@@ -123,7 +123,7 @@ Authors
 Contributors
 ------------
 
-- Alexis de Lattre <alexis.delattre@akretion.com>
+-  Alexis de Lattre <alexis.delattre@akretion.com>
 
 Maintainers
 -----------
